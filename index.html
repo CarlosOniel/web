@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/Oniel/Desktop/html2/a/AHOLA.HTML# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Oniel Buret</title>
+    <style>
+        body {
+            background-image: url(img.jpg);
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        main {
+            display: flex;
+        }
+        aside {
+            width: 30%;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.473);
+            border: 3px solid #000;
+            display: block;
+        }
+        .foto {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            border: 1px solid #000;
+            margin: 7px auto;
+            display: block;
+        }
+        section {
+            width: 70%;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.473);
+            border: 3px solid #000;
+            display: block;
+        }
+        .f{
+            text-align: center;
+        }
+        .apo {
+            text-decoration: none;
+            color: #000;
+        }
+        .fo:hover {
+            background-color: rgba(255, 0, 0, 0.61);
+            padding: 1%;
+            border: 3px solid #000;
+            display: block;
+            margin: 3px auto;
+            background-color: rgba(255, 0, 0, 0.5); /* Cambia el color de fondo al pasar el mouse */
+        }
+        .oniel:hover{
+            padding: 1%;
+            border: 3px solid #000;
+            display: block;
+            margin: 3px auto;
+            box-shadow: 0 0 10px black; /* Agrega una sombra */
+        
+        }
+        nav{
+            text-align: center;
+        }
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+
+        .navegacion {
+            width: 1000px;
+            margin: 30px auto;
+            background-color: rgba(255, 255, 255, 0.473);
+        }
+
+        .navegacion ul {
+            list-style: none;
+        }
+
+        .menu>li {
+            position: relative;
+            display: inline-block;
+        }
+
+
+        .menu>li>a {
+            display: block;
+            padding: 15px 20px;
+            color: #353535;
+            font-family: Arial, sans-serif ;
+            text-decoration: none;
+        }
+
+        .menu li a:hover {
+            color: #ff0000;
+            transition: all .3s;
+        }
+
+        /* Submenu*/
+
+        .submenu {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.473);
+            width: 120px;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 1.5s;
+        }
+
+        .submenu li a {
+            display: block;
+
+            padding: 15px;
+            color: #000000;
+            font-family: Arial, sans-serif ;
+            text-decoration: none;
+        }
+
+        .menu li:hover .submenu {
+            visibility: visible;
+            opacity: 1;
+        }
+        .div-a:hover {
+            border-color: red; /* Cambia el color del borde */
+        transform: rotate(5deg); /* Rota el div */
+    }
+    .oniel1:hover{
+        opacity: 0.5; /* Cambia la opacidad */
+        padding: 1%;
+            border: 3px solid #000;
+            display: block;
+            margin: 3px auto;
+    }
+    .pp:hover{
+        opacity: 0.5; /* Cambia la opacidad */
+    }
+    .container {
+            padding: 50px;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.473);
+            border: 3px solid #000;
+            display: block;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .menu-item {
+            background-color: rgb(56, 56, 56);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item h3 {
+            margin: 10px;
+            font-size: 1.5rem;
+            color: #ff6347;
+        }
+
+        .menu-item p {
+            margin: 10px;
+            font-size: 1rem;
+        }
+        a{
+            text-decoration: none;
+            color: #a8a8a8;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.473);
+            padding: 10px;
+            text-align: right;
+        }
+
+        header a {
+            color: rgb(0, 0, 0);
+            margin: 15px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        header a:hover {
+            color: #ff0000;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="file:///C:/Users/Oniel/Desktop/html2/a/AHOLA.HTML#">Inicio</a>
+        <a href="file:///C:/Users/Oniel/Desktop/html2/a/AHOLA.HTML#">Historia</a>
+        <a href="file:///C:/Users/Oniel/Desktop/html2/a/AHOLA.HTML#">redes sociales</a>
+    </header>
+    <br>
+    <br>
+    <br>
+    <main>
+        <aside>
+            <div class="div-a">
+                <h1 class="f">Carlos Oniel Buret</h1>
+                <img class="foto" src="./Carlos Oniel Buret_files/pepo.jpg" alt="Foto de Carlos Oniel Buret">
+            </div>
+            <div class="fo">
+                <h1 class="f">Objetivos.</h1>
+                <h3 class="f">Abrir un confesionario.</h3>
+            </div>
+        </aside>
+        <section>
+            <div class="oniel">
+                <h1>Información sobre mí.</h1>
+                <h3>Hola, soy italiano.</h3>
+            </div>
+            <div class="oniel">
+                <h1>Experiencia laboral.</h1>
+                <h3><a class="apo" href="https://www.youtube.com/watch?v=tA0bhLJl-K0&amp;t=133s">Appointment setter.</a></h3>
+                <h3><a class="apo" href="https://www.youtube.com/watch?v=ZXH-Lw-5v6k">Trading.</a></h3>
+                <!-- Agrega más experiencias laborales aquí -->
+            </div>
+            <div class="oniel1">
+                <h1>Contacto.</h1>
+                <h3>829-838-3218.</h3>
+            </div>
+            <div class="fo">
+                <h1>Referencias personales.</h1>
+                <h3>Ana Oferky Brito.</h3>
+                <h3>809-481-5722.</h3>
+            </div>
+        </section>
+    </main>
+    <section class="container" id="menu">
+        <h2>Mis trabagos</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/30%20coasas%20para%20mejorar%20el%20centro.html">30 coasas para mejorar el centro</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/una%20tabla.html">tabla del 1 al 30</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/tabla%20onel.html">tabla presonal</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/audio.HTML">playlis</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/Video%20de%20Oniel.html">Video</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/reseta.html">reseta</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/0.HTML">Tiro al blanco</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/..html">Estrutura cemantica</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/Responsive%20NBA.html">Responsive NBA</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/menu%20desplegable.html">Menu desplegable</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/pepe.html">Pancrasio con menu desplegable</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/FIGURA%20CSS.html">FIGURA CSS</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/ceudoclase.html">Ceudoclase</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/curriculun.html">Curriculun</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/chibato.html">Chibato</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/info.html">infografia</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/,.html">Fabula</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/pancrasio.html">Pancrasio</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/.......html">Pancrasio final</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/ppppppppp.html">Las cosas que me justan</a>
+            </div>
+            <div class="menu-item">
+                <a href="file:///C:/Users/Oniel/Desktop/html2/a/o.html">Los uniformes escolares</a>
+            </div>
+            
+            
+        </div>
+    </section>
+<center>
+    <footer>
+        Todoa los derechos reservados.
+    </footer>
+</center>
+
+</body></html>
